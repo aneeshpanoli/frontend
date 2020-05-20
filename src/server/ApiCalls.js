@@ -2,9 +2,6 @@ import axios from 'axios';
 import { updateProjectList } from "../state/state-actions";
 
 const BASE_API = process.env.REACT_APP_BASE_URL;
-
-console.log(BASE_API)
-
 axios.defaults.xsrfHeaderName = "X-CSRFToken";
 axios.defaults.xsrfCookieName = "csrftoken";
 axios.create({
