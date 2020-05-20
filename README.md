@@ -10,7 +10,7 @@ REACT_APP_BASE_URL=http://localhost:8080/api
 
 ## Available Scripts
 In the project directory, you can run:
-
+### `yarn`
 ### `yarn start dev`
 
 Runs the app in the development mode.<br />
