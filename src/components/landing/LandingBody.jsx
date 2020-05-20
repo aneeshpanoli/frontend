@@ -1,11 +1,11 @@
-import Container from "@material-ui/core/Container";
-import Typography from "@material-ui/core/Typography";
-import ProjectsList from "./ProjectsList";
-import React from "react";
-import { makeStyles } from "@material-ui/core/styles";
+import Container from '@material-ui/core/Container';
+import Typography from '@material-ui/core/Typography';
+import ProjectsList from './ProjectsList';
+import React from 'react';
+import { makeStyles } from '@material-ui/core/styles';
 import LandingPageImage from '../../media/images/landing_page_image.svg'
-import SearchBar from "./SearchBar";
-import { useTrackedState } from "reactive-react-redux";
+import SearchBar from './SearchBar';
+import { useTrackedState } from 'reactive-react-redux';
 
 const useStyles = makeStyles((theme) => ({
     icon: {

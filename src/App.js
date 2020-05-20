@@ -2,7 +2,7 @@ import { createStore } from 'redux';
 import { reducer } from './state/state-reducer'
 import { Provider } from 'reactive-react-redux';
 import React from 'react';
-import Landing from "./pages/Landing";
+import Landing from './pages/Landing';
 
 const App = () => {
   const store = createStore(reducer)

@@ -1,8 +1,8 @@
-import Container from "@material-ui/core/Container";
-import Grid from "@material-ui/core/Grid";
-import React from "react";
-import { makeStyles } from "@material-ui/core/styles";
-import ProjectCard from "./ProjectCard";
+import Container from '@material-ui/core/Container';
+import Grid from '@material-ui/core/Grid';
+import React from 'react';
+import { makeStyles } from '@material-ui/core/styles';
+import ProjectCard from './ProjectCard';
 
 const useStyles = makeStyles((theme) => ({
     cardGrid: {

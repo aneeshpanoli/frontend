@@ -1,4 +1,4 @@
-import { UPDATE_PROJECT_LIST } from "./state-actions";
+import { UPDATE_PROJECT_LIST } from './state-actions';
 
 const initialState = {
     searchedProjectList: []

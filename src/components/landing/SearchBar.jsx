@@ -1,12 +1,12 @@
-import React, {useState} from 'react';
-import Button from "@material-ui/core/Button";
-import Grid from "@material-ui/core/Grid";
-import { makeStyles } from "@material-ui/core/styles";
-import { useDispatch } from "reactive-react-redux";
-import { getProjectTitleSearchResult } from "../../server/ApiCalls";
-import FormControl from "@material-ui/core/FormControl";
-import InputLabel from "@material-ui/core/InputLabel";
-import OutlinedInput from "@material-ui/core/OutlinedInput";
+import React, { useState } from 'react';
+import Button from '@material-ui/core/Button';
+import Grid from '@material-ui/core/Grid';
+import { makeStyles } from '@material-ui/core/styles';
+import { useDispatch } from 'reactive-react-redux';
+import { getProjectTitleSearchResult } from '../../server/ApiCalls';
+import FormControl from '@material-ui/core/FormControl';
+import InputLabel from '@material-ui/core/InputLabel';
+import OutlinedInput from '@material-ui/core/OutlinedInput';
 import isEmpty from 'lodash/isEmpty'
 
 const useStyles = makeStyles((theme) => ({
